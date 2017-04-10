@@ -27,10 +27,7 @@ var questions = [
         questionText: 'Who would you take with you on your next adventure?',
         // list all the possible answers for this question with the scores assigned to each investigator
         answers: [
-            {
-                answerText: "Doctor Watson",
-                scores: [5, 0, 0, 0, 0, 3, 0, 0, 1]
-            },
+           
             {
                 answerText: "I work alone, can't trust anyone",
                 scores: [1, 5, 0, 0, 0, 0, 0, 0, 0]
@@ -42,6 +39,10 @@ var questions = [
             {
                 answerText: "Agent 99",
                 scores: [0, 0, 0, 0, 5, 0, 0, 0, 0]
+            },
+            {
+                answerText: "Doctor Watson",
+                scores: [5, 0, 0, 0, 0, 3, 0, 0, 1]
             },
             {
                 answerText: "My trusty manservant, Kato",
@@ -84,10 +85,6 @@ var questions = [
                 scores: [0, 5, 0, 0, 0, 0, 2, 0, 1]
             },
             {
-                answerText: "Battered felt hat with a fabric rose", // MM
-                scores: [0, 0, 5, 0, 0, 0, 0, 0, 0]
-            },
-            {
                 answerText: "Trilby", // MS
                 scores: [0, 0, 0, 0, 5, 0, 0, 0, 0]
             },
@@ -100,6 +97,10 @@ var questions = [
                 scores: [0, 0, 0, 0, 2, 0, 5, 0, 0]
             },
             {
+                answerText: "Battered felt hat with a fabric rose", // MM
+                scores: [0, 0, 5, 0, 0, 0, 0, 0, 0]
+            },
+            {
                 answerText: "A cloche with a peacock feather attached at a jaunty angle", // PF
                 scores: [0, 0, 1, 0, 0, 0, 0, 5, 1]
             },
@@ -107,7 +108,6 @@ var questions = [
                 answerText: "Vintage London fog hat", // IC
                 scores: [3, 0, 0, 5, 0, 0, 0, 0, 0]
             },
-            
             {
                 answerText: "Wouldn't wear one, they just get in the way",// TB
                 scores: [0, 4, 0, 0, 3, 0, 0, 0, 5]
@@ -119,10 +119,7 @@ var questions = [
         questionText: 'How would you choose to spend a lazy Sunday afternoon?',
         // list all the possible answers for this question with the scores assigned to each investigator
         answers: [
-            {
-                answerText: "Playing violin in my rooms",
-                scores: [5, 0, 0, 0, 0, 0, 0, 0, 1]
-            },
+            
             {
                 answerText: "Shooting practice",
                 scores: [1, 5, 0, 0, 2, 0, 0, 0, 3]
@@ -151,7 +148,10 @@ var questions = [
                 answerText: "A leisurely bath and a tryst with a handsome companion, in no particular order",
                 scores: [0, 0, 0, 0, 0, 0, 0, 5, 0]
             },
-            
+            {
+                answerText: "Playing violin in my rooms",
+                scores: [5, 0, 0, 0, 0, 0, 0, 0, 1]
+            },
             {
                 answerText: "Writing a scholarly paper",
                 scores: [4, 0, 0, 0, 0, 3, 0, 0, 5]
